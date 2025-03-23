@@ -1,6 +1,6 @@
 {
   "name": "randomcryp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "BSD-3-Clause",
   "description": "A cryptographically secure, feature rich, zero dependency and browser friendly random number generator library.",
   "author": {
@@ -18,7 +18,7 @@
     "build": "bun build src/index.ts --outdir dist && tsc -p tsconfig.dts.json"
   },
   "devDependencies": {
-    "@types/bun": "latest",
+    "@types/bun": "^1.2.5",
     "prettier": "^3.5.3"
   },
   "peerDependencies": {

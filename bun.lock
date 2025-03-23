@@ -5,10 +5,10 @@
       "name": "randomcryp",
       "devDependencies": {
         "@types/bun": "latest",
-        "prettier": "^3.5.3",
+        "prettier": "latest",
       },
       "peerDependencies": {
-        "typescript": "^5.8.2",
+        "typescript": "latest",
       },
     },
   },
