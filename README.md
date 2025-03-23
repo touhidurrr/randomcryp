@@ -1,6 +1,6 @@
 # randomcryp
 
-A cryptographically secure, feature rich, zero dependency, lightweight and browser friendly random number generator library. Only ~3KB in size.
+A cryptographically secure, feature rich, zero dependency, lightweight and browser friendly random number generator library. Only ~4KB in size.
 Uses [Crypto.getRandomValues()](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues) to get its randomness.
 The spelling is random-creep in case you are wondering.
 
