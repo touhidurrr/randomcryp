@@ -38,7 +38,7 @@ jobs:
         with:
           tag_name: ${{ env.version }}
           files: |
-            better-status-codes-*.tgz
+            randomcryp-*.tgz
 
       - name: Publish
         run: npm publish --provenance
