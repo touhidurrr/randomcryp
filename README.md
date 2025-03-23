@@ -57,4 +57,5 @@ rangeInt(1, 10); // 7
 | **`safeInt(): number`**                          | Generates a random integer between `Number.MIN_SAFE_INTEGER` (inclusive) and `Number.MAX_SAFE_INTEGER` (inclusive). +0 and -0 both can be generated. 54 bits precision. Not recommended for genral usage. | `safeInt()` → `-5802548511349229`                |
 | **`ifloat(): number`**                           | Generates a random number between `-1` (inclusive) and `1` (inclusive). Uses `safeInt()` and thus not recommended.                                                                                        | `ifloat()` → `-0.6076475248861822`               |
 
-License, BSD-3-Clause
+© 2025, Md. Touhidur Rahman
+License: BSD-3-Clause.

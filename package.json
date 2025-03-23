@@ -1,6 +1,6 @@
 {
   "name": "randomcryp",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "BSD-3-Clause",
   "description": "A cryptographically secure, feature rich, zero dependency and browser friendly random number generator library.",
   "author": {
@@ -12,6 +12,7 @@
   "bugs": "https://github.com/touhidurrr/randomcryp/issues",
   "funding": "https://buymeacoffee.com/touhidurrr",
   "main": "dist/index.js",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "format": "prettier --write .",
@@ -21,5 +22,32 @@
     "@types/bun": "^1.2.5",
     "prettier": "^3.5.3",
     "typescript": "^5.8.2"
-  }
+  },
+  "keywords": [
+    "cryptographically-secure",
+    "random-number-generator",
+    "rng",
+    "zero-dependency",
+    "lightweight",
+    "browser-friendly",
+    "typescript",
+    "cross-platform",
+    "secure-random",
+    "web-crypto",
+    "crypto",
+    "javascript-library",
+    "random-utilities",
+    "array-shuffling",
+    "random-boolean",
+    "random-choice",
+    "percentage-generator",
+    "range-generator",
+    "safe-integer",
+    "open-source",
+    "deno",
+    "bun",
+    "nodejs",
+    "crypto-getrandomvalues",
+    "browser"
+  ]
 }
