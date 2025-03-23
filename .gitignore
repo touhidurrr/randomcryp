@@ -1,0 +1,33 @@
+# dotfiles and test scripts
+.*
+*.tgz
+test*
+
+# test
+!tests/
+
+# build
+out/
+dist/
+build/
+
+# git
+!.gitignore
+
+# npm
+!.npmignore
+
+# github
+!.github
+!.github/*/*
+
+# prettier
+!.prettierignore
+!.prettierrc.yaml
+
+# nodejs
+node_modules/
+package-lock.json
+
+# yarn
+yarn.lock
