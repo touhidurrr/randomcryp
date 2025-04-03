@@ -1,6 +1,6 @@
 {
   "name": "randomcryp",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "license": "BSD-3-Clause",
   "description": "A cryptographically secure, feature rich, zero dependency and browser friendly random number generator library.",
   "author": {
@@ -11,6 +11,7 @@
   "homepage": "https://github.com/touhidurrr/randomcryp",
   "bugs": "https://github.com/touhidurrr/randomcryp/issues",
   "funding": "https://buymeacoffee.com/touhidurrr",
+  "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,7 +20,7 @@
     "build": "bun build src/index.ts --outdir dist && tsc -p tsconfig.dts.json"
   },
   "devDependencies": {
-    "@types/bun": "^1.2.5",
+    "@types/bun": "^1.2.8",
     "prettier": "^3.5.3",
     "typescript": "^5.8.2"
   },

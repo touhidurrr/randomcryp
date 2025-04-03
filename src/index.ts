@@ -2,6 +2,7 @@ import { bool } from "./lib/bool";
 import { boolean } from "./lib/boolean";
 import { choice } from "./lib/choice";
 import { float } from "./lib/float";
+import { hex } from "./lib/hex";
 import { ifloat } from "./lib/ifloat";
 import { percentage } from "./lib/percentage";
 import { pick } from "./lib/pick";
@@ -18,6 +19,7 @@ export {
   boolean,
   choice,
   float,
+  hex,
   ifloat,
   percentage,
   pick,
@@ -35,6 +37,7 @@ export default {
   boolean,
   choice,
   float,
+  hex,
   ifloat,
   percentage,
   pick,
