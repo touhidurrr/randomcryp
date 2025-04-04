@@ -9,7 +9,7 @@ The spelling is random-creep in case you are wondering.
 - Lightweight
 - Browser friendly
 - TypeScript definitions
-- Lots of methods and commonn aliases
+- Lots of methods and common aliases
 - Batteries Included (Zero dependencies)
 - Supported in all major JavaScript / TypeScript runtimes (Browser, Node, Deno, Bun etc.)
 
@@ -51,11 +51,11 @@ rangeInt(1, 10); // 7
 | **`hex(length: number = 8, prefix: boolean = false): string`** | Generates a random hex string of the specified length (default 8). Optionally prefixes with '0x'. | `hex(16)` → `d1ef0149c7849844` |
 | **`choice(arr: ArrayLike<E>): E`** | Selects a random element from an array. | `choice([1, 2, 3, 4, 5])` → `3` |
 | **`pick(arr: ArrayLike<E>): E`** | Alias for `choice()`. | `pick([1, 2, 3, 4, 5])` → `1` |
-| **`shuffle(input: string): string`**, **`shuffle(input: Array<E>): Array<E>`** | Returns a new array or string after shuffling the given array or string. | `shuffle([1, 2, 3, 4, 5])` → `[ 1, 3, 2, 5, 4 ]` |
+| **`shuffle(input: string): string`**, **`shuffle(input: Array<E>): Array<E>`** | Returns a new array or string after shuffling the given array or string randomly. | `shuffle([1, 2, 3, 4, 5])` → `[ 1, 3, 2, 5, 4 ]` |
 | **`range(min: number, max: number): number`** | Generates a random number (not integer) between given `min` (inclusive) and `max` (exclusive). Throws if `min` > `max`. | `range(1, 5)` → `4.103370176158448` |
 | **`rangeInt(min: number, max: number): number`** | Generates a random number (not integer) between given `min` (inclusive) and `max` (exclusive). Throws if `min` > `max`. | `rangeInt(1, 10)` → `8` |
 | **`randInt(min: number, max: number): number`** | Alias for `rangeInt()`. | `randInt(1, 100)` → `35` |
-| **`safeInt(): number`** | Generates a random integer between `Number.MIN_SAFE_INTEGER` (inclusive) and `Number.MAX_SAFE_INTEGER` (inclusive). +0 and -0 both can be generated. 54 bits precision. Not recommended for genral usage. | `safeInt()` → `-5802548511349229` |
+| **`safeInt(): number`** | Generates a random integer between `Number.MIN_SAFE_INTEGER` (inclusive) and `Number.MAX_SAFE_INTEGER` (inclusive). +0 and -0 both can be generated. 54 bits precision. Not recommended for general usage. | `safeInt()` → `-5802548511349229` |
 | **`ifloat(): number`** | Generates a random number between `-1` (inclusive) and `1` (inclusive). Uses `safeInt()` and thus not recommended. | `ifloat()` → `-0.6076475248861822` |
 
 © 2025, Md. Touhidur Rahman.
