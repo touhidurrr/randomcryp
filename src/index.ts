@@ -1,3 +1,5 @@
+"use strict";
+
 import { bool } from "./lib/bool";
 import { boolean } from "./lib/boolean";
 import { choice } from "./lib/choice";
