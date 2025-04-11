@@ -56,7 +56,7 @@ rangeInt(1, 10); // 7
 | **`range(min: number, max: number): number`** | Generates a random number (not integer) between given `min` (inclusive) and `max` (exclusive). Throws if `min` > `max`. | `range(1, 5)` → `4.103370176158448` |
 | **`rangeInt(min: number, max: number): number`** | Generates a random number (not integer) between given `min` (inclusive) and `max` (exclusive). Throws if `min` > `max`. | `rangeInt(1, 10)` → `8` |
 | **`randInt(min: number, max: number): number`** | Alias for `rangeInt()`. | `randInt(1, 100)` → `35` |
-| **`safeInt(): number`** | Generates a random integer between `Number.MIN_SAFE_INTEGER` (inclusive) and `Number.MAX_SAFE_INTEGER` (inclusive). +0 and -0 both can be generated. 54 bits precision. Not recommended for general usage. | `safeInt()` → `-5802548511349229` |
+| **`safeInt(): number`** | Generates a random integer between `Number.MIN_SAFE_INTEGER` (inclusive) and `Number.MAX_SAFE_INTEGER` (inclusive). `+0` and `-0` both can be generated. `54` bits precision. Not recommended for general usage. | `safeInt()` → `-5802548511349229` |
 | **`ifloat(): number`** | Generates a random number between `-1` (inclusive) and `1` (inclusive). Uses `safeInt()` and thus not recommended. | `ifloat()` → `-0.6076475248861822` |
 
 © 2025, Md. Touhidur Rahman.
