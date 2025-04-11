@@ -6,6 +6,7 @@ import { hex } from "./lib/hex";
 import { ifloat } from "./lib/ifloat";
 import { percentage } from "./lib/percentage";
 import { pick } from "./lib/pick";
+import { probability } from "./lib/probability";
 import { randInt } from "./lib/randInt";
 import { random } from "./lib/random";
 import { range } from "./lib/range";
@@ -23,6 +24,7 @@ export {
   ifloat,
   percentage,
   pick,
+  probability,
   randInt,
   random,
   range,
@@ -40,6 +42,7 @@ export default {
   hex,
   ifloat,
   percentage,
+  probability,
   pick,
   randInt,
   random,

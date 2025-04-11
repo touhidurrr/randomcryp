@@ -44,7 +44,8 @@ rangeInt(1, 10); // 7
 | -- | -- | -- |
 | **`bool(): boolean`** | Generates a random boolean (`true` or `false`). | `bool()` → `true` |
 | **`boolean(): boolean`** | Alias for `bool()`. | `boolean()` → `false` |
-| **`percentage(val: number): boolean`** | Generates `true` at given percentage of time. | `percentage(20)` → `false` |
+| **`percentage(p: number): boolean`** | Generates `true` at given percentage of time. | `percentage(20)` → `false` |
+| **`probability(p: number): boolean`** | Generates `true` with a given probability `p` and `false` with probability `1-p`. | `probability(0.8)` → `true` |
 | **`uSafeInt(): number`** | Generates a random integer between `0` (inclusive) and `Number.MAX_SAFE_INTEGER` (inclusive). | `uSafeInt()` → `4946544243668033` |
 | **`float(): number`** | Generates a random number between `0` (inclusive) and `1` (exclusive). | `number()` → `0.190088246732104` |
 | **`random(): number`** | Alias for `float()`. | `random()` → `0.9520779718919631` |
