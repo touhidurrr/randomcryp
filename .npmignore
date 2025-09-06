@@ -6,6 +6,6 @@ scripts/
 .*
 *.md
 *.tgz
+*.lock*
 test*
 tsconfig*
-bun.lock*
