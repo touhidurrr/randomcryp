@@ -9,3 +9,4 @@ scripts/
 *.lock*
 test*
 tsconfig*
+bunfig.toml
