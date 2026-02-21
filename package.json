@@ -7,7 +7,10 @@
     "name": "Md. Touhidur Rahman",
     "email": "touhidurrr@pm.me"
   },
-  "repository": "github:touhidurrr/randomcryp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/touhidurrr/randomcryp.git"
+  },
   "homepage": "https://github.com/touhidurrr/randomcryp",
   "bugs": "https://github.com/touhidurrr/randomcryp/issues",
   "funding": "https://buymeacoffee.com/touhidurrr",
