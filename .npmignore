@@ -10,3 +10,4 @@ scripts/
 test*
 tsconfig*
 bunfig.toml
+eslint.config.*

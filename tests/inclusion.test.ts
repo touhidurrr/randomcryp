@@ -7,8 +7,8 @@ test("check if everything is exported properly", () => {
     (fileName) => fileName.match(/[^\\/]+(?=\.ts$)/)![0],
   );
   expect(exported).toMatchObject(index);
-  //@ts-expect-error
+  //@ts-expect-error works
   expect(index).toContainKeys(methodNames);
-  //@ts-expect-error
+  //@ts-expect-error same
   expect(exported).toContainKeys(methodNames);
 });
