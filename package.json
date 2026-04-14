@@ -1,6 +1,6 @@
 {
   "name": "randomcryp",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "license": "BSD-3-Clause",
   "description": "A cryptographically secure, feature rich, zero dependency and browser friendly random number generator library.",
   "author": {
