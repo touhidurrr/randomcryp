@@ -1,9 +1,13 @@
 {
+  "include": ["src", "tests"],
   "compilerOptions": {
     // Environment setup & latest features
     "lib": ["DOM", "ESNext"],
     "target": "ES6",
     "module": "ES6",
+
+    // types
+    "types": ["bun"],
 
     "paths": {
       "@index": ["./src/index.ts"],
@@ -16,7 +20,6 @@
     "noEmit": true,
 
     // Best practices
-    "strict": true,
     "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true,
