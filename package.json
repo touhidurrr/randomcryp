@@ -21,7 +21,7 @@
   "scripts": {
     "format": "prettier --write .",
     "build": "bun scripts/build.ts",
-    "lint": "eslint .",
+    "lint": "tsc && eslint .",
     "test": "bun test"
   },
   "devDependencies": {
