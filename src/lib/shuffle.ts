@@ -13,11 +13,13 @@ function _shuffle<E>(input: ArrayLike<E> | Iterable<E>): E[] {
 }
 
 /**
- * Returns a new string containing the characters of the input string in a shuffled order.
+ * Returns a new string containing the characters of the input string in a
+ * shuffled order.
  */
 function shuffle(input: string): string;
 /**
- * Returns a new array containing the elements of the input array in a shuffled order.
+ * Returns a new array containing the elements of the input array in a shuffled
+ * order.
  */
 function shuffle<E>(input: E[]): E[];
 function shuffle<E>(input: ArrayLike<E> | Iterable<E>): E[];

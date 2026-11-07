@@ -1,11 +1,11 @@
 import { float } from "./float";
 
 /**
- * Generates a random number integer
- * between given `min` (inclusive) and `max` (inclusive).
- * Throws if `min` > `max`.
+ * Generates a random number integer between given `min` (inclusive) and `max`
+ * (inclusive). Throws if `min` > `max`.
  *
- * @example rangeInt(1, 100) // 35
+ * @example
+ *   rangeInt(1, 100); // 35
  */
 export const rangeInt = (min: number, max: number): number => {
   if (min > max) {

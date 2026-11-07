@@ -3,3 +3,8 @@ bun = true
 
 [test]
 globconcurrentTestGlob = "tests/**"
+
+[fmt]
+jsdoc = true
+sortPackageJson = true
+ignorePatterns = ["*.md"]

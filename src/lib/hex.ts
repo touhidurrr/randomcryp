@@ -2,8 +2,11 @@ const digits = "0123456789abcdef";
 
 /**
  * Generates a random hex string of the specified length.
- * @param {number} [length=8] - The length of the hex string to generate. Default is `8`.
- * @param {boolean} [prefix=false] - If `true`, the hex string will be prefixed with `"0x"`. Default `false`.
+ *
+ * @param {number} [length=8] - The length of the hex string to generate.
+ *   Default is `8`
+ * @param {boolean} [prefix=false] - If `true`, the hex string will be prefixed
+ *   with `"0x"`. Default `false`. Default is `false`
  * @returns {string} A random hex string of the specified length.
  */
 export const hex = (length: number = 8, prefix: boolean = false): string => {
